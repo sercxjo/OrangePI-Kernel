@@ -105,3 +105,15 @@ bImage
 rootfs.cpio.gz
 drivers/arisc/binary/arisc
 modules/eurasia_km/eurasiacon/binary2_sunxi_android_release/
+
+arch/arm/mach-sunxi/power/brom/resumes.elf
+arch/arm/mach-sunxi/power/brom/resumes.lst
+arch/arm/mach-sunxi/power/brom/resumes.map
+modules/mali/DX910-SW-99002-r4p0-00rel0_modify/driver/src/devicedrv/mali/.tmp_versions/mali.mod
+modules/mali/DX910-SW-99002-r4p0-00rel0_modify/driver/src/devicedrv/mali/Module.symvers
+modules/mali/DX910-SW-99002-r4p0-00rel0_modify/driver/src/devicedrv/ump/.tmp_versions/ump.mod
+modules/mali/DX910-SW-99002-r4p0-00rel0_modify/driver/src/devicedrv/ump/Module.symvers
+modules/mali/DX910-SW-99002-r4p0-00rel0_modify/driver/src/egl/x11/drm_module/mali_drm/.tmp_versions/mali_drm.mod
+drivers/net/ethernet/sunxi/eth/Kconfig
+drivers/net/ethernet/sunxi/eth/sunxi_geth.c
+arch/arm/configs/sun8iw7p1smp_lobo_defconfig
