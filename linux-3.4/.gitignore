@@ -117,3 +117,6 @@ modules/mali/DX910-SW-99002-r4p0-00rel0_modify/driver/src/egl/x11/drm_module/mal
 drivers/net/ethernet/sunxi/eth/Kconfig
 drivers/net/ethernet/sunxi/eth/sunxi_geth.c
 arch/arm/configs/sun8iw7p1smp_lobo_defconfig
+firmware/ap6210/bcm20710a1.hcd
+firmware/ap6210/nvram_ap6210.txt
+modules/malibuild.log
