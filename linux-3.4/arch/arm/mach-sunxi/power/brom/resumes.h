@@ -70,7 +70,7 @@ typedef struct _Resume_file_head
 	__u8   file_head_vsn[4] __attribute__ ((aligned (4)));   // the version of resume0_file_head_t or resume1_file_head_t
 	__u8   Resume_vsn[4] __attribute__ ((aligned (4)));      // Resume version
 	__u8   eGON_vsn[4] __attribute__ ((aligned (4)));        // eGON version
-	__u8   platform[8] __attribute__ ((aligned (4))); 
+	__u8   platform[8] __attribute__ ((aligned (4)));
 }resume_file_head_t;
 
 extern const resume_file_head_t  resume_head;

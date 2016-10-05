@@ -1,5 +1,5 @@
 config ZSMALLOC
- 	bool "Memory allocator for compressed pages"
+	bool "Memory allocator for compressed pages"
 	depends on MMU
 	default n
 	help

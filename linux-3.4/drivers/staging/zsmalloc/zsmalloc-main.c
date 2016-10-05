@@ -490,8 +490,8 @@ static int get_pages_per_zspage(int class_size)
  * could be 0 so we ensure that the handle will never be 0 by adjusting the
  * encoded obj_idx value before encoding.
  */
- 
- 
+
+
 static void *obj_location_to_handle(struct page *page, unsigned long obj_idx)
 {
 	unsigned long handle;
@@ -721,7 +721,7 @@ static inline void __zs_unmap_object(struct mapping_area *area,
 				struct page *pages[2], int off, int size)
 {
 	unsigned long addr = (unsigned long)area->vm_addr;
-	
+
 	unmap_kernel_range(addr, PAGE_SIZE * 2);
 }
 
